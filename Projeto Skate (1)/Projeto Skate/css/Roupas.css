@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Corpo */
+
+.flex-conteiner {
+    justify-content: space-between;
+    display: flex;
+}
+
+.escopo {
+    background-color: blueviolet;
+    height: 500px;
+    justify-content: space-between;
+    padding-bottom: 12.3%;
+}
+
+.produto {
+    width: 200px;
+    text-align: justify;
+}
+
+.produto figure {
+    border: 3px solid #ffffff;
+    background-color: blueviolet;
+    margin: 0 0 15px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.produto figure img {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.btn-clique {
+    border: 1px solid #843886;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.btn-clique:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+
+/* Corpo */
+
+
+/* Rodapé */
+
+footer {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 50px;
+    color: white;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1%;
+    font-size: 8px;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 8px;
+}
+
+
+/* Rodapé */
